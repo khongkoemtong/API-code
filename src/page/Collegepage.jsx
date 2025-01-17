@@ -1,3 +1,4 @@
+import Under from "../../Under";
 import Footerpage from "../Footerpage";
 import Bodypage from "./Bodypage";
 import Navbarpage from "./Navbarpage";
@@ -13,6 +14,7 @@ export default function (){
         <Outlet/>
         <Bodypage/>
         <Footerpage/>
+        <Under/>
         </>
     )
 }
