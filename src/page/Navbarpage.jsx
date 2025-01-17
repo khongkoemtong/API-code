@@ -6,9 +6,9 @@ export default function Navbarpage ()  {
 
     // Replace javascript:void(0) paths with your paths
     const navigation = [
-        { title: "Home", path: "/" },
-        { title: "People", path: "/People" },
-        { title: "About us", path: "/About us" },
+        { title: "Home", path: "javascript:void(0)" },
+        { title: "People", path: "javascript:void(0)" },
+        { title: "About us", path: "javascript:void(0)" },
         { title: "Pricing", path: "javascript:void(0)" }
     ]
 
